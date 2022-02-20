@@ -36,7 +36,7 @@ This parameter is not used.
 
 A pointer to the null-terminated string that is to be added.
 
-If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, this parameter is stored as item data instead of a string. You can send the **LB\_GETITEMDATA** and **LB\_SETITEMDATA** messages to retrieve or modify the item data.
+If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-box-styles.md) style, this parameter is stored as item data instead of a string. You can send the **LB\_GETITEMDATA** and **LB\_SETITEMDATA** messages to retrieve or modify the item data. The stored data is truncated to 32 bits in 64 bit applications.
 
 </dd> </dl>
 
